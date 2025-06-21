@@ -49,8 +49,10 @@ Graph your logs using tools like Desmos, Matplotlib, or TensorBoard.
 ```
 BERT-Model-from-scratch/
 ├── tokenizer.py        # Custom tokenizer and vocab
-├── model.py            # BERT model definition
+├── bert_model.py       # BERT model definition
 ├── train_bert.py       # Training script
+├── quick_test.py       # Perform a quick test script
+├── test_bert.py        # Perform a regular test script
 ├── utils.py            # Data prep, batching, and helpers
 ├── requirements.txt    # Python dependencies
 └── README.md           # This file
